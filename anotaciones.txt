@@ -1,0 +1,50 @@
+<soy una etiqueta>
+    Aca va el contenido de la etiqueta
+</soy una etiqueta>
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+¿COMO INICIAR EL CODIGO HTML?
+Presionar en index.html:
+! (alt 33) y tab
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+ETIQUETAS
+
+<h1> Titulo </h1> 
+<h2> Titulo 2 </h2> 
+        .
+        .
+<h6> Titulo 6 </h6>
+
+<p> Parrafo </p>
+
+<hr> Linea 
+
+<span>  Selecciona una parte del parrafo  </span>
+
+<br> Salto de Linea
+
+<a target="_blank" href= "url de la pagina" > Link o Hipervinculo </a>   // target="_blank" es para que cuando el usuario pulse el link, este se abra en otra ventana
+
+<img src="img/coffee.png" />    // la imagen esta guardada en la carpeta img
+<img src="coffee.png" height="400" width="400" />    // la imagen esta guardada en el mismo sitio de index.html 
+                                                    // height (alto)
+                                                    // width (ancho)
+
+<form>
+    <label for="nombre">Nombre</label>         // para asignar nombre y for es para que si el usuario pulsa Nombre tambien pueda empezar a escribir en el cuadro
+    <input type="text" id="nombre" />                      // input aparece el cuadro para que el usuario introduzca algo
+</form>                                         // type (hay varios types; para ingresar claves, ingresar emails, checkbox, subir archivos etc...)
+
+
+<button> Boton <button/>  // type= puede ser button o reset o submit
+
+<header> Header o Encabezado </header> //No se puede poner una etiqueta de header dentro de otra etiqueta de header
+
+<footer> Footer o pie de pagina </footer> 
+
+<section> Contenido </section> 
+
+<div> Divisor de contenido </div> 
